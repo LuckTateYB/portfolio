@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Personal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">Portfolio</div>
+        <nav>
+          <ul>
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <p class="intro">Hola, mi nombre es</p>
+        <h1>OSCAR FABIAN CASTRO SEVERINO</h1>
+        <h2>Desarrollador Full Stack</h2>
+        <p class="description">
+          Construyo aplicaciones web excepcionales y escalables con un enfoque
+          en la experiencia del usuario y el rendimiento.
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="icon">👤</span>
+          <h2>Sobre Mí</h2>
+        </div>
+        <p>
+          Soy un desarrollador apasionado por crear soluciones tecnológicas que
+          impacten positivamente en la vida de las personas. Mi experiencia
+          abarca desde el desarrollo fullstack hasta el analisis de datos, con
+          un fuerte énfasis en tecnologías modernas.
+        </p>
+
+        <div class="skills">
+          <h3>Algunas tecnologías con las que trabajo:</h3>
+          <ul class="skills-list">
+            <li>JavaScript</li>
+            <li>Node.js</li>
+            <li>React</li>
+            <li>Python</li>
+            <li>PostgreSQL</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="icon">💼</span>
+          <h2>Experiencia</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2024</div>
+            <div class="timeline-content">
+              <h3>Desarrollador Full Stack Junior</h3>
+              <p class="company">LUSSION LENCE</p>
+              <p>
+                Desarrollo de una pagina web escalable utilizando tecnologías
+                modernas. Realice tareas de backend y frontend para el dinamismo
+                de la pagina.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">2024</div>
+            <div class="timeline-content">
+              <h3>Desarrollador Frontend</h3>
+              <p class="company">Innovación Digital</p>
+              <p>
+                Creación de interfaces de usuario responsivas y optimización del
+                rendimiento de aplicaciones web.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="icon">🚀</span>
+          <h2>Proyectos</h2>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Plataforma E-learning</h3>
+            <p>
+              Desarrollo de una plataforma educativa con sistema de gestión de
+              cursos y contenido multimedia.
+            </p>
+            <div class="project-tech">
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>Supabase</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>App de Gestión Financiera - Expence Tracker</h3>
+            <p>
+              Aplicación para el seguimiento de gastos personales con
+              visualización de datos y reportes personalizados.
+            </p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>JavaScript</span>
+              <span>SQL Server</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="icon">✉️</span>
+          <h2>Contacto</h2>
+        </div>
+        <p>
+          ¿Interesado en trabajar juntos? Contáctame a través del siguiente
+          formulario o por mis redes sociales.
+        </p>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Enviar Mensaje</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>© 2025 DESARROLLADO POR OSCAR CASTRO.</p>
+        <div class="social-links">
+          <a href="#" class="social-link">GitHub</a>
+          <a href="#" class="social-link">LinkedIn</a>
+          <a href="#" class="social-link">Twitter</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
