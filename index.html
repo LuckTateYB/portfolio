@@ -9,13 +9,14 @@
   <body>
     <header>
       <div class="container">
-        <div class="logo">Portfolio</div>
+        <div class="logo">LuckTate</div>
         <nav>
           <ul>
             <li><a href="#about">Sobre mí</a></li>
             <li><a href="#experience">Experiencia</a></li>
             <li><a href="#projects">Proyectos</a></li>
             <li><a href="#contact">Contacto</a></li>
+            <li><a href="#" class="cv-button">CV</a></li>
           </ul>
         </nav>
       </div>
@@ -25,10 +26,10 @@
       <div class="container">
         <p class="intro">Hola, mi nombre es</p>
         <h1>OSCAR FABIAN CASTRO SEVERINO</h1>
-        <h2>Desarrollador Full Stack</h2>
+        <h2>Desarrollador Full Stack y Analista de datos</h2>
         <p class="description">
-          Construyo aplicaciones web excepcionales y escalables con un enfoque
-          en la experiencia del usuario y el rendimiento.
+          Construyo aplicaciones web escalables con un enfoque en la experiencia
+          del usuario y el rendimiento.
         </p>
       </div>
     </section>
@@ -54,40 +55,58 @@
             <li>React</li>
             <li>Python</li>
             <li>PostgreSQL</li>
+            <li>C++</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <section id="experience" class="experience">
+    <section id="experiencia" class="experience">
       <div class="container">
         <div class="section-header">
           <span class="icon">💼</span>
           <h2>Experiencia</h2>
         </div>
-        <div class="timeline">
-          <div class="timeline-item">
-            <div class="timeline-date">2024</div>
-            <div class="timeline-content">
-              <h3>Desarrollador Full Stack Junior</h3>
-              <p class="company">LUSSION LENCE</p>
-              <p>
-                Desarrollo de una pagina web escalable utilizando tecnologías
-                modernas. Realice tareas de backend y frontend para el dinamismo
-                de la pagina.
-              </p>
-            </div>
+        <div class="experience-grid">
+          <div class="experience-card">
+            <h3>Desarrollador FullStack Jr.</h3>
+            <p>
+              Lideré el proyecto Lussion Lence, donde desarrollé una aplicación
+              web para venta de productos. Utilicé tecnologías como Node.js,
+              SQLServer y JavaScript. Implementé un sistema de gestión de
+              imagenes y productos, mejorando la eficiencia del proceso de
+              compra en un 20%.
+            </p>
           </div>
-          <div class="timeline-item">
-            <div class="timeline-date">2024</div>
-            <div class="timeline-content">
-              <h3>Desarrollador Frontend</h3>
-              <p class="company">Innovación Digital</p>
-              <p>
-                Creación de interfaces de usuario responsivas y optimización del
-                rendimiento de aplicaciones web.
-              </p>
-            </div>
+          <div class="experience-card">
+            <h3>Practicante de Sistemas</h3>
+            <p>
+              Realicé prácticas en la empresa Simarra y Asociados, donde
+              documenté procesos internos y desarrollé un sistema de gestión de
+              datos optimizando la eficiencia operativa en un 30%. Aprendí a
+              trabajar en equipo y a utilizar herramientas de gestión de
+              proyectos.
+            </p>
+          </div>
+          <div class="experience-card">
+            <h3>Desarrollador FullStack Jr.</h3>
+            <p>
+              Participé en el desarrollo de una aplicación web para la gestión
+              de inventarios de un cliente con su mecanica de motos. Implementé
+              funcionalidades de búsqueda y filtrado de productos en sotck,
+              mejorando la busqueda de productos. Utilicé tecnologías como
+              Python, Django y SQLLite.
+            </p>
+          </div>
+          <div class="experience-card">
+            <h3>Analista de Datos Jr.</h3>
+            <p>
+              Análisis de datos y creación de dashboards para la toma de
+              decisiones del cliente con respecto a sus gastos. Utilicé Python y
+              SQL para el procesamiento y visualización de datos. También se
+              pusieron en marcha estrategias de optimización de costos, logrando
+              una reducción del 15% en los gastos mensuales.
+            </p>
           </div>
         </div>
       </div>
@@ -129,41 +148,43 @@
     </section>
 
     <section id="contact" class="contact">
-      <div class="container">
-        <div class="section-header">
-          <span class="icon">✉️</span>
-          <h2>Contacto</h2>
-        </div>
-        <p>
-          ¿Interesado en trabajar juntos? Contáctame a través del siguiente
-          formulario o por mis redes sociales.
-        </p>
-        <form id="contact-form">
-          <div class="form-group">
-            <label for="name">Nombre</label>
-            <input type="text" id="name" name="name" required />
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
-          </div>
-          <div class="form-group">
-            <label for="message">Mensaje</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-          </div>
-          <button type="submit">Enviar Mensaje</button>
-        </form>
+      <div class="section-header">
+        <span class="icon">📬</span>
+        <h2>Contáctame</h2>
+      </div>
+      <div class="contact-container">
+        <a href="mailto:tu@email.com" class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>Email</span>
+        </a>
+        <a href="https://github.com/LuckTateYB" class="contact-item">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/oscar-castros/"
+          class="contact-item"
+        >
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a
+          href="https://www.instagram.com/oscar_fabian05/"
+          class="contact-item"
+        >
+          <i class="fab fa-instagram"></i>
+          <span>Instagram</span>
+        </a>
+        <a href="#" class="contact-item">
+          <i class="fab fa-discord"></i>
+          <span>Discord</span>
+        </a>
       </div>
     </section>
 
     <footer>
       <div class="container">
         <p>© 2025 DESARROLLADO POR OSCAR CASTRO.</p>
-        <div class="social-links">
-          <a href="#" class="social-link">GitHub</a>
-          <a href="#" class="social-link">LinkedIn</a>
-          <a href="#" class="social-link">Twitter</a>
-        </div>
       </div>
     </footer>
 
