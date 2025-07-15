@@ -143,6 +143,12 @@ nav a:hover {
   color: #f8fafc;
 }
 
+.about-description {
+  font-size: 1.25rem;
+  color: #94a3b8;
+  line-height: 1.5;
+}
+
 .skills {
   margin-top: 2rem;
 }
